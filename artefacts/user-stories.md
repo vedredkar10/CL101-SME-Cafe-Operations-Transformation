@@ -1,4 +1,4 @@
-# Frutilicious Café — User Stories & Acceptance Criteria
+# User Stories & Acceptance Criteria
 
 ## Project Information
 
