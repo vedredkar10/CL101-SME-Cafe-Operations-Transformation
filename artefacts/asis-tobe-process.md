@@ -7,7 +7,7 @@
 
 ---
 
-# As-Is Process — Detailed Description
+# As-Is Process — Outline
 
 ## Context
 
@@ -125,7 +125,7 @@ The owner estimated pre-engagement wastage at approximately **25% of total stock
 
 ---
 
-# To-Be Process — Detailed Description
+# To-Be Process — Outline
 
 ## Context
 
