@@ -168,4 +168,45 @@ Full written process descriptions (As-Is and To-Be) →
 
 ---
 
-## 📐 Solution Architecture
+## Solution Architecture
+
+```text
+┌─────────────────────────────────────────────────────┐
+│                 STAFF (Data Entry)                  │
+│                                                     │
+│ • Menu Item (drop-down) + Quantity + Timestamp      │
+│ • Wastage Log (End of Service)                      │
+└──────────────────────┬──────────────────────────────┘
+                       │
+                       ▼
+┌─────────────────────────────────────────────────────┐
+│          EXCEL WORKBOOK (SharePoint)                │
+│                                                     │
+│ • Tab 1: Sales Log                                  │
+│ • Tab 2: Inventory & Stock Levels                   │
+│ • Tab 3: Wastage Log                                │
+│ • Tab 4: Menu Item Price List                       │
+└──────────────────────┬──────────────────────────────┘
+                       │
+                Live Connection
+                       ▼
+┌─────────────────────────────────────────────────────┐
+│               POWER BI DASHBOARD                    │
+│                                                     │
+│ • Home: 6 KPI Cards                                 │
+│ • Page 2: Sales Breakdown                           │
+│   (Daily / Weekly / Hourly)                         │
+│ • Page 3: Inventory Panel + Stock Alerts            │
+│ • Page 4: Wastage Tracking                          │
+│ • Page 5: Monthly Item Performance Ranking          │
+└──────────────────────┬──────────────────────────────┘
+                       │
+          Published via Power BI Service
+                       ▼
+┌─────────────────────────────────────────────────────┐
+│        OWNER (Mobile / Desktop Browser)             │
+│                                                     │
+│ • Full Dashboard Access — Real Time                 │
+│ • Morning Review: < 5 Minutes                       │
+│ • Data-Driven Ordering Decisions                    │
+└─────────────────────────────────────────────────────┘
