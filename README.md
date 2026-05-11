@@ -1,9 +1,9 @@
-# frutilicious-cafe-ba
+# CL101 — Independent Café Business BA
 
-# Frutilicious Café — Business Analysis Documentation & Process
+# Business Analysis Documentation & Process Modelling
 
 **Author:** Ved Redkar | Co-Founder & Analytics Associate, Visionize Consultancy LLP
-**Client:** Frutilicious Café, Panjim-Goa, India
+**Client:** Independent Café Business, Goa, India
 **Engagement Type:** End-to-end Business Analysis Lifecycle & Analytics Solution Delivery
 **Timeline:** 2022-23
 **Status:** Delivered
@@ -12,7 +12,7 @@
 
 ## Project Outline
 
-Frutilicious Café was a growing independent café in Goa operating entirely on
+A growing independent café in Goa operating entirely on
 institutional memory and handwritten notebooks. The owner had no visibility
 into daily sales, revenue, inventory levels, or wastage — all ordering and
 operational decisions were made on intuition. This engagement involved
